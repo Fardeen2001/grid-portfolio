@@ -42,21 +42,24 @@ gap: 20px;
 .box{
     background-size: cover;
     background-position:top;
-    color:#fff;
+    color:#fff !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #111 !important;
     background-blend-mode: hard-light;
     transition: all 2s ease-in-out;
     cursor: pointer;
 }
+.box a{
+    text-decoration:none;
+}
 .box:hover{
-    background-color: #999;
+    background-color: #999 !important;
     background-position: center;
     background-size: cover;
     box-shadow: 0 0 4px #ddd;
-    color: #000;
+    color: #000 !important;
 }
 .row-2{
     grid-row: span 2;
