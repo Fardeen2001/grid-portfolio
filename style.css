@@ -42,21 +42,29 @@ gap: 20px;
 .box{
     background-size: cover;
     background-position:top;
-    color:#fff;
+    color:#fff !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #111 !important;
     background-blend-mode: hard-light;
     transition: all 2s ease-in-out;
     cursor: pointer;
 }
+.box a{
+    text-decoration: none;
+    color:  #fff !important;
+}
 .box:hover{
-    background-color: #999;
+    background-color: #999 !important;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 0 4px #ddd;
+    box-shadow: 0 0 4px #ddd !important;
     color: #000;
+}
+.box a:hover{
+    color: #111 !important;
+    transition: all 2s ease-in-out;
 }
 .row-2{
     grid-row: span 2;
